@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shellcode.bin">
+      <UniqueIdentifier>{16d7ec1a-c39c-4c05-bc7a-ac0d09e490d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shellcode.bin\src">
+      <UniqueIdentifier>{49742737-07d4-467b-8d56-72727251a19b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dllmain.cc">
+      <Filter>shellcode.bin\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
